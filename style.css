@@ -1,0 +1,569 @@
+h1 {
+	font-size: 50px;
+	color: #ffffff;
+	line-height: 45px;
+	border-bottom: 5px solid #ffffff;
+	text-align: center;
+	margin: 80px 465px 20px 480px;
+}
+
+.hlogo {
+	text-align: center;
+	position: relative;
+}
+.maco {
+	text-align: center;
+}
+.kamo{
+	margin: 0 0 30px -140px;
+	line-height: 140px;
+	height: 280px;
+	width: 745px;
+	border: 4px solid #ffffff;
+
+}
+.rait{
+	margin: 0 0 30px 300px;
+	line-height: 140px;
+	height: 280px;
+	width: 745px;
+	border: 4px solid #ffffff;
+}
+.mbsl{
+	margin: 0 180px 30px -140px;
+	line-height: 140px;
+	height: 280px;
+	width: 745px;
+	border: 4px solid #ffffff;
+}
+
+.jmsl{
+	margin: 0 0 30px 300px;
+	line-height: 140px;
+	height: 280px;
+	width: 745px;
+	border: 4px solid #ffffff;
+}
+.jfsl{
+	margin: 0 180px 30px -140px;
+	line-height: 140px;
+	height: 280px;
+	width: 745px;
+	border: 4px solid #ffffff;
+}
+.sdsl{
+	margin: 0 0 30px 300px;
+	line-height: 140px;
+	height: 280px;
+	width: 745px;
+	border: 4px solid #ffffff;
+}
+
+.ymsl{
+	margin: 0 180px 30px -140px;
+	line-height: 140px;
+	height: 280px;
+	width: 745px;
+	border: 4px solid #ffffff;
+}
+
+body {
+  background-image: url("sizenhaikei.png");
+}
+
+.anim-box{
+   display: flex;
+}
+ .kamo{
+   animation: opacity ease forwards;
+   animation-timeline: view();
+   animation-range: cover 0% cover 100%;
+ }
+
+ @keyframes opacity{
+  0% {
+    transform: translate(180px,30px);
+    opacity: 0;
+  }
+  15%{opacity: 0.11;}
+  50%{opacity: 1;}
+  85%{opacity: 0.11;}
+  100% {
+    transform: translate(0,0);
+    100%{opacity: 0;}
+  }
+}
+
+.anim-box2{
+   display: flex;
+}
+ .rait{
+   animation: opacity2 ease forwards;
+   animation-timeline: view();
+   animation-range: cover 0% cover 100%;
+ }
+
+ @keyframes opacity2{
+  0% {
+    transform: translate(-180px,30px);
+    opacity: 0;
+  }
+  15%{opacity: 0.11;}
+  50%{opacity: 1;}
+  85%{opacity: 0.11;}
+  100% {
+    transform: translate(0,0);
+    100%{opacity: 0;}
+  }
+}
+
+.anim-box3{
+   display: flex;
+}
+ .mbsl{
+   animation: opacity3 ease forwards;
+   animation-timeline: view();
+   animation-range: cover 0% cover 100%;
+ }
+
+ @keyframes opacity3{
+   0% {
+    transform: translate(180px,30px);
+    opacity: 0;
+  }
+  15%{opacity: 0.11;}
+  50%{opacity: 1;}
+  85%{opacity: 0.11;}
+  100% {
+    transform: translate(0,0);
+    100%{opacity: 0;}
+  }
+}
+
+
+.anim-box4{
+   display: flex;
+}
+ .jmsl{
+   animation: opacity4 ease forwards;
+   animation-timeline: view();
+   animation-range: cover 0% cover 100%;
+ }
+
+ @keyframes opacity4{
+   0% {
+    transform: translate(-180px,30px);
+    opacity: 0;
+  }
+  15%{opacity: 0.11;}
+  50%{opacity: 1;}
+  85%{opacity: 0.11;}
+  100% {
+    transform: translate(0,0);
+    100%{opacity: 0;}
+  }
+}
+
+
+.anim-box5{
+   display: flex;
+}
+ .jfsl{
+   animation: opacity5 ease forwards;
+   animation-timeline: view();
+   animation-range: cover 0% cover 100%;
+ }
+
+ @keyframes opacity5{
+   0% {
+    transform: translate(180px,30px);
+    opacity: 0;
+  }
+  15%{opacity: 0.11;}
+  50%{opacity: 1;}
+  85%{opacity: 0.11;}
+  100% {
+    transform: translate(0,0);
+    100%{opacity: 0;}
+  }
+}
+
+
+.anim-box6{
+   display: flex;
+}
+ .sdsl{
+   animation: opacity6 ease forwards;
+   animation-timeline: view();
+   animation-range: cover 0% cover 100%;
+ }
+
+ @keyframes opacity6{
+   0% {
+    transform: translate(-180px,30px);
+    opacity: 0;
+  }
+  15%{opacity: 0.11;}
+  50%{opacity: 1;}
+  85%{opacity: 0.11;}
+  100% {
+    transform: translate(0,0);
+    100%{opacity: 0;}
+  }
+}
+
+.anim-box7{
+   display: flex;
+}
+ .ymsl{
+   animation: opacity7 ease forwards;
+   animation-timeline: view();
+   animation-range: cover 0% cover 100%;
+ }
+
+ @keyframes opacity7{
+   0% {
+    transform: translate(180px,30px);
+    opacity: 0;
+  }
+  15%{opacity: 0.11;}
+  50%{opacity: 1;}
+  85%{opacity: 0.11;}
+  100% {
+    transform: translate(0,0);
+    100%{opacity: 0;}
+  }
+}
+
+
+.kamo:hover{
+  outline-width: 1px;
+  outline-offset: 0;
+  outline-color: rgba(0, 130, 206, 0.75);
+  outline-style: solid;
+  animation: animateOutline 2s ease infinite;
+  box-shadow: 0px 12px 24px brown;
+    transform: translateY(-8px);
+}	
+
+@keyframes animateOutline {
+  0% {
+    outline-width: 1px;
+    outline-offset: 0;
+    outline-color: white;
+  }
+
+  10% {
+    outline-color: white;
+  }
+
+  /* The animation finishes at 50% */
+  50% {
+    outline-width: 7px;
+    outline-offset: 4px;
+    outline-color: white;
+  }
+
+  100% {
+    outline-width: 7px;
+    outline-offset: 4px;
+    outline-color: brown;
+  }
+}
+
+.rait:hover{
+  outline-width: 1px;
+  outline-offset: 0;
+  outline-color: rgba(0, 130, 206, 0.75);
+  outline-style: solid;
+  animation: animateOutline2 2s ease infinite;
+  box-shadow: 0px 12px 24px brown;
+    transform: translateY(-8px);
+}	
+
+@keyframes animateOutline2 {
+  0% {
+    outline-width: 1px;
+    outline-offset: 0;
+    outline-color: white;
+  }
+
+  10% {
+    outline-color: white;
+  }
+
+  /* The animation finishes at 50% */
+  50% {
+    outline-width: 7px;
+    outline-offset: 4px;
+    outline-color: white;
+  }
+
+  100% {
+    outline-width: 7px;
+    outline-offset: 4px;
+    outline-color: brown;
+  }
+}
+
+.mbsl:hover{
+  outline-width: 1px;
+  outline-offset: 0;
+  outline-color: rgba(0, 130, 206, 0.75);
+  outline-style: solid;
+  animation: animateOutline3 2s ease infinite;
+  box-shadow: 0px 12px 24px brown;
+    transform: translateY(-8px);
+}	
+
+@keyframes animateOutline3 {
+  0% {
+    outline-width: 1px;
+    outline-offset: 0;
+    outline-color: white;
+  }
+
+  10% {
+    outline-color: white;
+  }
+
+  /* The animation finishes at 50% */
+  50% {
+    outline-width: 7px;
+    outline-offset: 4px;
+    outline-color: white;
+  }
+
+  100% {
+    outline-width: 7px;
+    outline-offset: 4px;
+    outline-color: brown;
+  }
+}
+
+.jmsl:hover{
+  outline-width: 1px;
+  outline-offset: 0;
+  outline-color: rgba(0, 130, 206, 0.75);
+  outline-style: solid;
+  animation: animateOutline4 2s ease infinite;
+  box-shadow: 0px 12px 24px brown;
+    transform: translateY(-8px);
+}	
+
+.mbsl:hover{
+  outline-width: 1px;
+  outline-offset: 0;
+  outline-color: rgba(0, 130, 206, 0.75);
+  outline-style: solid;
+  animation: animateOutline3 2s ease infinite;
+  box-shadow: 0px 12px 24px brown;
+    transform: translateY(-8px);
+}	
+
+@keyframes animateOutline4 {
+  0% {
+    outline-width: 1px;
+    outline-offset: 0;
+    outline-color: white;
+  }
+
+  10% {
+    outline-color: white;
+  }
+
+  /* The animation finishes at 50% */
+  50% {
+    outline-width: 7px;
+    outline-offset: 4px;
+    outline-color: white;
+  }
+
+  100% {
+    outline-width: 7px;
+    outline-offset: 4px;
+    outline-color: brown;
+  }
+}
+
+.jfsl:hover{
+  outline-width: 1px;
+  outline-offset: 0;
+  outline-color: rgba(0, 130, 206, 0.75);
+  outline-style: solid;
+  animation: animateOutline5 2s ease infinite;
+  box-shadow: 0px 12px 24px brown;
+    transform: translateY(-8px);
+}	
+
+@keyframes animateOutline5 {
+  0% {
+    outline-width: 1px;
+    outline-offset: 0;
+    outline-color: white;
+  }
+
+  10% {
+    outline-color: white;
+  }
+
+  /* The animation finishes at 50% */
+  50% {
+    outline-width: 7px;
+    outline-offset: 4px;
+    outline-color: white;
+  }
+
+  100% {
+    outline-width: 7px;
+    outline-offset: 4px;
+    outline-color: brown;
+  }
+}
+
+.sdsl:hover{
+  outline-width: 1px;
+  outline-offset: 0;
+  outline-color: rgba(0, 130, 206, 0.75);
+  outline-style: solid;
+  animation: animateOutline6 2s ease infinite;
+  box-shadow: 0px 12px 24px brown;
+    transform: translateY(-8px);
+}	
+
+@keyframes animateOutline6 {
+  0% {
+    outline-width: 1px;
+    outline-offset: 0;
+    outline-color: white;
+  }
+
+  10% {
+    outline-color: white;
+  }
+
+  /* The animation finishes at 50% */
+  50% {
+    outline-width: 7px;
+    outline-offset: 4px;
+    outline-color: white;
+  }
+
+  100% {
+    outline-width: 7px;
+    outline-offset: 4px;
+    outline-color: brown;
+  }
+}
+
+.ymsl:hover{
+  outline-width: 1px;
+  outline-offset: 0;
+  outline-color: rgba(0, 130, 206, 0.75);
+  outline-style: solid;
+  animation: animateOutline7 2s ease infinite;
+  box-shadow: 0px 12px 24px brown;
+    transform: translateY(-8px);
+}	
+
+@keyframes animateOutline7 {
+  0% {
+    outline-width: 1px;
+    outline-offset: 0;
+    outline-color: white;
+  }
+
+  10% {
+    outline-color: white;
+  }
+
+  /* The animation finishes at 50% */
+  50% {
+    outline-width: 7px;
+    outline-offset: 4px;
+    outline-color: white;
+  }
+
+  100% {
+    outline-width: 7px;
+    outline-offset: 4px;
+    outline-color: brown;
+  }
+}
+
+
+
+
+.tab-3 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 5000px;
+    margin: 0 500px 0 500px;
+}
+
+.tab-3 > label {
+    flex: 1 1;
+    order: -1;
+    min-width: 70px;
+    padding: -100em 1em .5em;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 0 180px 0;
+}
+
+.tab-3 > label:hover {
+    opacity: .8;
+}
+
+.tab-3 input {
+    display: none;
+}
+
+.tab-3 > div {
+    display: none;
+    width: 100%;
+}
+
+.tab-3 label:has(:checked) {
+    border-bottom: 4px solid #800000;
+    color: #800000;
+}
+
+.tab-3 label:has(:checked) + div {
+    display: block;
+}
+
+
+.wrapper{
+  width: 50%;
+  height: 0;
+}
+ .meter{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 4px;
+   background-color: #ffffff;
+   animation: meter linear;
+   animation-timeline: scroll();
+ }
+
+ @keyframes meter{
+   0%{background-color: #ffffff; width: 0;}
+ 100%{background-color: #ffffff; width: 100%;}
+ }
+
+
+body {
+  height: 200vh; /* スクロールが発生するよう適当な高さを確保 */
+}
+
+
+.ftlogo {
+	margin: 50px 0 100px 15px;
+	text-align: center;
+}
